@@ -1,10 +1,7 @@
-<?php
-$proprietario = "Marco";
+<?$proprietario = "Marco";
 $locador = "Paulo";
 $valor = 2457.50;
 $porcent_reajuste = 35.5;
-
-
 $novo_valor = $valor * ($porcent_reajuste / 100 + 1);
 
 echo "<h1>Proprietário:</h1>";
